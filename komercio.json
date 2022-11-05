@@ -1,0 +1,225 @@
+[
+  {
+    "model": "seller.seller",
+    "pk": "0d12e680-624b-4e8c-8b0f-b22f70f82d33",
+    "fields": {
+      "password": "pbkdf2_sha256$390000$apS7Cn2J5W9nQVh1ioul6d$vfZqG/dIC0r4lrvbZkGas0GDL3clRpKmo6eVzYx7z6s=",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-11-05T19:02:21.213Z",
+      "username": "Trtaaa",
+      "first_name": "alexandre",
+      "last_name": "alves",
+      "is_seller": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "seller.seller",
+    "pk": "15bad283-86a1-4cbc-8fc4-0efde858a812",
+    "fields": {
+      "password": "pbkdf2_sha256$390000$ZFgMyu5teV6aLCA9s6xRrt$/wqhDGVbmHeb8tpqDTwPF25uWtYzt0c1kQFb1jyu3Y8=",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "",
+      "is_staff": false,
+      "is_active": false,
+      "date_joined": "2022-11-05T20:09:21.979Z",
+      "username": "xausudre",
+      "first_name": "alexandre",
+      "last_name": "alves",
+      "is_seller": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "seller.seller",
+    "pk": "2d82c8ed-bd85-4ee1-b2c4-fed2d7cc670f",
+    "fields": {
+      "password": "pbkdf2_sha256$390000$ZsCxXiILshz9A93bfySpoJ$XJpzLTVqahry/YrCQ3J8dAkMb+xmP8C0ndKwMLbJr4s=",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-11-05T19:47:34.605Z",
+      "username": "xanndre",
+      "first_name": "alexandre",
+      "last_name": "alves",
+      "is_seller": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "seller.seller",
+    "pk": "66b17f19-b215-48dc-853c-0b270d0f086c",
+    "fields": {
+      "password": "pbkdf2_sha256$390000$iSVcfjv5PVvG5YzXY2PiV4$X+OsOFyzhUzUOYhNAKnr3th1hXmjCyawVHA9AKtzhko=",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-11-05T20:15:46.160Z",
+      "username": "xauusure",
+      "first_name": "alexandre",
+      "last_name": "alves",
+      "is_seller": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "seller.seller",
+    "pk": "764a280b-0158-4ca6-a800-cde5ebd6805f",
+    "fields": {
+      "password": "pbkdf2_sha256$390000$GXlvcG42sF0juaAgLp4LqI$8r2bYvUfJcDD2UVDjWAfsLuhAIrvxrHs1wpMbm7oIfg=",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "",
+      "is_staff": false,
+      "is_active": false,
+      "date_joined": "2022-11-05T20:05:46.522Z",
+      "username": "xauudre",
+      "first_name": "alexandre",
+      "last_name": "alves",
+      "is_seller": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "seller.seller",
+    "pk": "87974f40-5986-492e-821c-779c607dc7d9",
+    "fields": {
+      "password": "pbkdf2_sha256$390000$hBbD75OEUjn9PVx7rxfFgP$oLXENNOePLsNoLFiG6HouKadk4Y/jlxEu/O8cHP4su8=",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "",
+      "is_staff": false,
+      "is_active": false,
+      "date_joined": "2022-11-05T19:03:39.305Z",
+      "username": "xandre",
+      "first_name": "alexandre",
+      "last_name": "alves",
+      "is_seller": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "seller.seller",
+    "pk": "9d14fd3e-9f0d-438c-9418-6cf7df125986",
+    "fields": {
+      "password": "pbkdf2_sha256$390000$yQlMGUlLXaGnUFD4ozlPmP$vFsSOKGYtfUVgzgLkwSm+qfv5Ls9lglEmjtNpKRjlSg=",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "",
+      "is_staff": false,
+      "is_active": false,
+      "date_joined": "2022-11-05T19:38:41.523Z",
+      "username": "xande",
+      "first_name": "alexandre",
+      "last_name": "alves",
+      "is_seller": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "seller.seller",
+    "pk": "b148e045-c37e-4f59-9196-a734b374f0fb",
+    "fields": {
+      "password": "pbkdf2_sha256$390000$RVrAqr12mE27f3wBQ0AHTN$OUu+G1IFYEpgSsRz/tq/cNNyjHVCYYwbvjf7Ox+F+lQ=",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-11-05T21:02:13.037Z",
+      "username": "Trtaaaa",
+      "first_name": "alexandre",
+      "last_name": "alves",
+      "is_seller": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "seller.seller",
+    "pk": "b7289e8d-53cd-4bcb-9c8b-8047d05f1c85",
+    "fields": {
+      "password": "pbkdf2_sha256$390000$gwb5KqbGiZSopM31PL6TzQ$2RmcSjeos2QKSlSTSd8ZJ2J+8a7ExBKgvdcsZ+kJs+U=",
+      "last_login": "2022-11-05T20:55:13.251Z",
+      "is_superuser": true,
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-11-05T20:27:33.753Z",
+      "username": "gustavo",
+      "first_name": "gustavo",
+      "last_name": "costa",
+      "is_seller": false,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "seller.seller",
+    "pk": "cd725863-6647-470b-a519-f3c09fd5ccb5",
+    "fields": {
+      "password": "pbkdf2_sha256$390000$TYGEJaApQLMfRG7lxSi6q6$2BYdMv5EN0JiVz4tqJ7Xe5K0pp6Xsindta7xfUeKe3w=",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "",
+      "is_staff": false,
+      "is_active": false,
+      "date_joined": "2022-11-05T20:12:38.472Z",
+      "username": "xasudre",
+      "first_name": "alexandre",
+      "last_name": "alves",
+      "is_seller": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": "2fcb03a0-8e65-4ebe-af2d-3691fc58b297",
+    "fields": {
+      "description": "Smartband XYZ 1000001",
+      "price": 100.99,
+      "quantity": 15,
+      "is_active": true,
+      "seller": "87974f40-5986-492e-821c-779c607dc7d9"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": "333ab073-3222-4737-82b4-33032ea9d4e2",
+    "fields": {
+      "description": "Smartband XYZ 3.0",
+      "price": 100.99,
+      "quantity": 15,
+      "is_active": true,
+      "seller": "87974f40-5986-492e-821c-779c607dc7d9"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": "f3e7dd8c-c9d9-4bbe-87b4-a597fe87b7d6",
+    "fields": {
+      "description": "Smartband XYZ 3.0",
+      "price": 100.99,
+      "quantity": 15,
+      "is_active": true,
+      "seller": "b148e045-c37e-4f59-9196-a734b374f0fb"
+    }
+  }
+]
