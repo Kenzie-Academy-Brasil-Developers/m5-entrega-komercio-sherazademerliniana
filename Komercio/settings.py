@@ -31,7 +31,7 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["komercio-kenzie-academy.herokuapp.com", "localhost"]
+ALLOWED_HOSTS = ["komercio-kenzie-create.herokuapp.com", "localhost"]
 
 
 # Application definition
