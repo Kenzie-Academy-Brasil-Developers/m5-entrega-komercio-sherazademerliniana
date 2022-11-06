@@ -33,6 +33,7 @@ class SellerModelTest(TestCase):
 class SellerViewsTest(APITestCase):
     @classmethod
     def setUpTestData(cls):
+
         cls.seller_data = {
             "username": "Alex",
             "password": "abcd",
@@ -41,6 +42,39 @@ class SellerViewsTest(APITestCase):
             "is_seller": True,
         }
 
+        cls.user_data = {
+            "username": "gustavo",
+            "password": "abcd",
+            "first_name": "gustavo",
+            "last_name": "costa",
+            "is_seller": False,
+        }
+
+        cls.login_seller = {
+            "username": "Alex",
+            "password": "abcd",
+        }
+
+        cls.login_user = {
+            "username": "gustavo",
+            "password": "abcd",
+        }
+
     def test_create_user_seller(self):
         response = self.client.post("/api/accounts/", self.seller_data)
-        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.status_code, 201)
+
+    def test_create_user(self):
+        response = self.client.post("/api/accounts/", self.user_data)
+        self.assertEqual(response.status_code, 201)
+
+    def test_crease_user_error(self):
+        response = self.client.post("/api/accounts/", {})
+        self.assertEqual(response.status_code, 400)
+
+    def test_list_users(self):
+        self.client.post("/api/accounts/", self.seller_data)
+        self.client.post("/api/accounts/", self.user_data)
+
+        response = self.client.get("/api/accounts/")
+        self.assertEqual(response.data["count"], 2)
